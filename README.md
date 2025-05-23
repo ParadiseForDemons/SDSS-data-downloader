@@ -13,3 +13,6 @@ Run the script and follow the interactive prompts:
 
 ```bash
 python sdss_downloader_cli.py
+
+Author
+Pardis – Astronomy MS, Kharazmi University
