@@ -1,19 +1,32 @@
-## Author
-Pardis Gravand – Astronomy MS, Kharazmi University
+# 🌌 SDSS Image Downloader
 
-# SDSS-data-downloader
- A Python tool to fetch galaxy images from SDSS using Astroquery
+A fully standalone, command-line Python tool for downloading galaxy images from the Sloan Digital Sky Survey (SDSS) — designed for astronomers, machine learning practitioners, and students.
 
-This tool allows users to fetch galaxy images directly from the SDSS database via Astroquery, without any prior dataset or CSV file.
+Created by **Pardis**  
+_MSc Astronomy & Astrophysics, Kharazmi University_  
 
-## Features
-- No pre-existing CSV required
-- Select number of images, format (PNG, FITS), SDSS band, and destination folder
-- Compatible with Google Colab, Drive, or local systems
 
-## Usage
-Run the script and follow the interactive prompts:
+---
 
+## 🚀 Overview
+
+This script allows you to quickly and interactively download astronomical images from the SDSS without requiring any dataset or prior knowledge of coordinates.
+
+Whether you're building a machine learning model, conducting morphological classification, or simply exploring sky data — this tool gives you fast, flexible access to FITS and PNG galaxy images.
+
+---
+
+## 🔧 Features
+
+- ✅ No CSV or galaxy catalog required  
+- ✅ Random sky sampling via SDSS API  
+- ✅ Choose number of images, format (PNG/FITS/Both), band, resolution  
+- ✅ Save to Google Drive, Colab, or local directory  
+- ✅ Minimal dependencies, 100% Python  
+
+---
+
+## 🖥️ How It Works
 
 ```bash
-python sdss_downloader_cli.py
+$ python sdss_downloader_cli.py
