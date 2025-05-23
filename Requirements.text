@@ -1,0 +1,11 @@
+astroquery
+
+astropy
+
+numpy
+
+pillow
+
+tqdm
+
+pip install -r requirements.txt
