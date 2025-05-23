@@ -1,3 +1,6 @@
+## Author
+Pardis Gravand – Astronomy MS, Kharazmi University
+
 # SDSS-data-downloader
  A Python tool to fetch galaxy images from SDSS using Astroquery
 
@@ -11,10 +14,6 @@ This tool allows users to fetch galaxy images directly from the SDSS database vi
 ## Usage
 Run the script and follow the interactive prompts:
 
-##Author
-Pardis – Astronomy MS, Kharazmi University
 
 ```bash
 python sdss_downloader_cli.py
-
-
